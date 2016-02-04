@@ -52,6 +52,10 @@ public class FloatNumberFileProcessor {
                     logger.log(Level.FINE, "Processing line : " + line);
                 }
             }
+	    if (logger.isLoggable(Level.INFO)) {
+	        logger.info("Total count of numbers : " + totalNum);
+	        logger.info("Sum of all numbers : " + sum.toString());
+	    }
             if (logger.isLoggable(Level.INFO)) {
                 logger.log(Level.INFO, "Processing ends. ");
             }
@@ -71,10 +75,6 @@ public class FloatNumberFileProcessor {
             } catch (IOException e) {
                 //ignore
             }
-        }
-        if (logger.isLoggable(Level.INFO)) {
-            logger.info("Total count of numbers : " + totalNum);
-            logger.info("Sum of all numbers : " + sum.toString());
         }
         logger.exiting(CLASS, method);
     }
