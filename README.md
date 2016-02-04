@@ -1,9 +1,8 @@
 # FloatNumFileProcessor
 
 Prerequisite to build/run this project:
-  jdk 1.8   - verified under build 1.8.0_40-b26 
-  maven 3.2 - verified under Apache Maven 3.2.5
-
+  1. jdk 1.8   - verified under build 1.8.0_40-b26
+  2.  maven 3.2 - verified under Apache Maven 3.2.5
 Steps to build:
   1. cd FloatNumFileProcessor
   2. mvn clean package
@@ -24,8 +23,8 @@ Steps to run:
   
 About test cases:
  Currently, there are five cases to run in "mvn test"
- 1> test normal data file
- 2> test empty data file
- 3> test data file having invalid num format
- 4> test non-existing data file
- 5> test no input paramter
+ 1. test normal data file
+ 2. test empty data file
+ 3. test data file having invalid num format
+ 4. test non-existing data file
+ 5. test no input paramter
