@@ -3,6 +3,7 @@
 Prerequisite to build/run this project:
   1. jdk 1.8   - verified under build 1.8.0_40-b26
   2.  maven 3.2 - verified under Apache Maven 3.2.5
+
 Steps to build:
   1. cd FloatNumFileProcessor
   2. mvn clean package
